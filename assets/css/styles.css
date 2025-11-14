@@ -35,7 +35,6 @@ header {
 .header-menu {
     display: flex;
     gap: 10rem;
-    margin-left: 21%;
 }
 
 header a {
@@ -45,25 +44,9 @@ header a {
     transition: transform 0.3s, color 0.3s;
 }
 
-header button {
-    border: 1px solid white;
-    width: 4rem;
-    height: 3rem;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    color: white;
-    background-color: transparent;
-    cursor: pointer;
-    transition: transform 0.3s, color 0.3s;
-}
-
-header a:hover, button:hover {
+header a:hover {
     transform: scale(1.08);
     color: rgb(231, 231, 231);
-    border-color: rgb(231, 231, 231);
 }
 
 footer {

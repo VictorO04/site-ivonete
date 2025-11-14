@@ -1,0 +1,24 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60rem;
+    font-size: 1rem;
+    padding: 2%;
+    gap: 3rem;
+    box-shadow: 0px 0px 5px 0.5px rgb(179, 255, 135);
+    border-radius: 20px;
+    text-align: center;
+}
+
+main h1 {
+    font-weight: lighter;
+}
